@@ -1,1 +1,18 @@
-# Financial-Fraud_Tlab_Phase2
+# Fiancial Fraud Analysis and Modeling
+
+
+
+
+# Modules/Libraries
+
+
+
+
+
+
+
+# Dataset Overview
+
+
+
+
