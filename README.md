@@ -1,4 +1,6 @@
-![screenshot](images/FRAUD INVESTIGATION.png)
+![screenshot](images/Fraudimage.png)
+
+**This project explores financial transaction data to build a model for detecting fraudulent activity. It focuses on analyzing transaction patterns and evaluating model performance.**
 
 # Fiancial Fraud Analysis and Modeling
 ![screenshot](images/pairplot.png)
