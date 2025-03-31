@@ -1,3 +1,5 @@
+![screenshot](images/FRAUD INVESTIGATION.jpg)
+
 # Fiancial Fraud Analysis and Modeling
 ![screenshot](images/pairplot.png)
 
