@@ -2,21 +2,8 @@
 
 **This project explores financial transaction data to build a model for detecting fraudulent activity. It focuses on analyzing transaction patterns and evaluating model performance.**
 
+
 # Fiancial Fraud Analysis and Modeling
-![screenshot](images/pairplot.png)
-
-
-# Modules/Libraries
-* MatplotLib
-* Numpy
-* Pandas
-* Seaborn
-* Sklearn
-
-# Dataset Overview
-
-
-
 
 # About Financial Fraud Dataset
 
@@ -43,3 +30,20 @@
 * IsFlaggedFraud: A “naive” model that simply flags a transaction as fraudulent if it is greater than 200,000 (note that this currency is not USD) 
 
 * IsFraud: Was this simulated transaction actually fraudulent? In this case, we consider “fraud” to be a malicious transaction that aimed to transfer funds out of a victim’s bank account before the account owner could secure their information. 
+***
+
+ Modules/Libraries
+* MatplotLib
+* Numpy
+* Pandas
+* Seaborn
+* Sklearn
+
+# Fiancial Fraud Analysis and Modeling
+
+
+
+
+
+
+![screenshot](images/pairplot.png)
