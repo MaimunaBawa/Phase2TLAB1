@@ -46,8 +46,7 @@
 ![screenshot](images/Histstep1.png)
 
 * **We observe an initial surge in transaction frequency from step 0-100. Subsequently, the transaction frequency stabilizes between steps 100-400, followed by a period of low activity after step 400**
-![screenshot](images/FlaggedFraud.png)
-![screenshot](images/Fraud.png)
+
 ![screenshot](images/Fraudtype.png)
 
 * **Fraudulent activity is heavily concentrated within the "CASH_OUT" and "TRANSFER" transaction types.**
