@@ -39,11 +39,18 @@
 * Seaborn
 * Sklearn
 
-# Fiancial Fraud Analysis and Modeling
+## Univariate Anaysis
+![screenshot](images/Bargraph.png)
+![screenshot](images/Histstep1.png)
+![screenshot](images/FlaggedFraud.png)
+![screenshot](images/Fraud.png)
+![screenshot](images/Fraudtype.png)
+![screenshot](images/AmountHistogram.png)
 
 
+## Bivariate Anaysis
+![screenshot](images/Jitterscatterplot.png)
 
-
-
-
-![screenshot](images/pairplot.png)
+## Multivariate Anaysis
+![screenshot](images/Pairplot.png)
+![screenshot](images/Heatmap.png)
