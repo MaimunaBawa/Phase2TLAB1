@@ -41,16 +41,44 @@
 
 ## Univariate Anaysis
 ![screenshot](images/Bargraph.png)
+* **Cash-out transactions are the most frequent, exceeding 2 million occurrences, with payments following closely in second place**
 ![screenshot](images/Histstep1.png)
+* **We observe an initial surge in transaction frequency from step 0-100. Subsequently, the transaction frequency stabilizes between steps 100-400, followed by a period of low activity after step 400**
 ![screenshot](images/FlaggedFraud.png)
 ![screenshot](images/Fraud.png)
 ![screenshot](images/Fraudtype.png)
+* **Fraudulent activity is heavily concentrated within the "CASH_OUT" and "TRANSFER" transaction types.**
+
+* **This finding indicates that these two transaction types ("CASH_OUT" and "TRANSFER") should be prioritized for fraud detection and prevention measures.**
 ![screenshot](images/AmountHistogram.png)
+* **The graph exhibits two distinct modes, with a primary concentration between 10^5 and 10^6, and a secondary, less prominent mode around 10^3. However, the distribution is right-skewed.**
 
 
 ## Bivariate Anaysis
+
 ![screenshot](images/Jitterscatterplot.png)
 
+* **There are many non-fraudulent transactions that have a very high old balance, but a very low transaction amount.**
+
+* **There's a noticeable separation between the fraudulent and non-fraudulent transaction patterns. This suggests that "Old Balance" and "Transaction Amount"are potential features that can help distinguish fraudulent activity**
+
+* **The linear pattern in fraudulent transactions suggests that certain thresholds or ranges of "Old Balance" and "Transaction Amount" might be inductor of fraud**
+
 ## Multivariate Anaysis
+
 ![screenshot](images/Pairplot.png)
+
+* **Step distribution is highly skewed, showing a concentration of transactions at the beginning and then tapering off.**
+
+* **Step shows little to no clear linear correlation with any other variable, as seen in the scattered patterns in the scatter plots**
+
+* **Fraudulent transactions (isFraud)" show distinct patterns in relation to "oldbalanceDest", "newbalanceDest", and "amount".They tend to form a line, especially when plotted against the destination balances**
+
+* **isFlaggedFraud is very rare, and has very little to no corelation with the other variables.**
+
 ![screenshot](images/Heatmap.png)
+
+* **The correlation  between oldbalanceDest and newbalanceDest coefficient is 0.98, which is very close to 1.**
+
+* **This indicates a strong positive linear relationship. As the old balance of the destination account increases, the new balance of the destination account also increases proportionally.**
+
