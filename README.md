@@ -86,8 +86,8 @@
 
 * **This indicates a strong positive linear relationship. As the old balance of the destination account increases, the new balance of the destination account also increases proportionally.**
 
-## Challebges :
-**Data Qualtiy**
-**Model Evaluation**
-**Class Imbalance**
-**Feature Engineering**
+## Challenges :
+* **Data Qualtiy**
+* **Model Evaluation**
+* **Class Imbalance**
+* **Feature Engineering**
