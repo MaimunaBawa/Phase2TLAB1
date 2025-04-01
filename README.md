@@ -41,15 +41,19 @@
 
 ## Univariate Anaysis
 ![screenshot](images/Bargraph.png)
+
 * **Cash-out transactions are the most frequent, exceeding 2 million occurrences, with payments following closely in second place**
 ![screenshot](images/Histstep1.png)
+
 * **We observe an initial surge in transaction frequency from step 0-100. Subsequently, the transaction frequency stabilizes between steps 100-400, followed by a period of low activity after step 400**
 ![screenshot](images/FlaggedFraud.png)
 ![screenshot](images/Fraud.png)
 ![screenshot](images/Fraudtype.png)
+
 * **Fraudulent activity is heavily concentrated within the "CASH_OUT" and "TRANSFER" transaction types.**
 
 * **This finding indicates that these two transaction types ("CASH_OUT" and "TRANSFER") should be prioritized for fraud detection and prevention measures.**
+
 ![screenshot](images/AmountHistogram.png)
 * **The graph exhibits two distinct modes, with a primary concentration between 10^5 and 10^6, and a secondary, less prominent mode around 10^3. However, the distribution is right-skewed.**
 
@@ -82,3 +86,8 @@
 
 * **This indicates a strong positive linear relationship. As the old balance of the destination account increases, the new balance of the destination account also increases proportionally.**
 
+## Challebges :
+**Data Qualtiy**
+**Model Evaluation**
+**Class Imbalance**
+**Feature Engineering**
